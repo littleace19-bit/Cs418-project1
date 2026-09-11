@@ -7,8 +7,8 @@
 A client-side task management web application styled as a mission board. Users can post new objectives, assign rank priorities (C-Rank, B-Rank, S-Rank), mark missions as complete, and delete them from the board. 
 
 **Instructions for Running:**
-1. Clone the repository to your local Computer.
-2. Open `index.html` in any modern web browser.
+1. Clone the repository to your terminal on a local Computer.
+2. Open `index.html` from the project folder and it should load onto any web browser. 
 3. No server installation or compilation is required.
 
 **Known Problems / Incomplete Features:**
