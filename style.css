@@ -1,0 +1,92 @@
+/* --- Element Selectors --- */
+body {
+    /* Background and padding fulfill assignment requirements */
+    background-color: #eaddc5;
+    /* Parchment-like background */
+    font-family: Arial, sans-serif;
+    color: #2b2b2b;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 4px solid #5c3a21;
+    /* Dark wood border for the board */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #3e2723;
+    border-bottom: 2px dashed #5c3a21;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #5c3a21;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #8b5a2b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    border: 1px solid #c2b298;
+    border-radius: 5px;
+}
+
+/* --- Class Selectors --- */
+/* We will apply this class to our tasks via JavaScript later */
+.mission-scroll {
+    background-color: #fffaf0;
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Completed Task Requirement --- */
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    background-color: #d3d3d3;
+}
+
+/* --- Priority Styling --- */
+/* The assignment suggests using different colors to distinguish priority */
+.priority-low {
+    border-left: 6px solid #4caf50;
+    /* Green for C-Rank */
+}
+
+.priority-medium {
+    border-left: 6px solid #2196f3;
+    /* Blue for B-Rank */
+}
+
+.priority-high {
+    border-left: 6px solid #d32f2f;
+    /* Red for S-Rank */
+}
+
+/* Minor styling for the action buttons we will create in JS */
+.action-btn {
+    padding: 5px 10px;
+    margin-left: 5px;
+    font-size: 0.9em;
+}
