@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guild Mission Board</title>
+    <!-- This links your CSS file to the HTML -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Guild Mission Board</h1>
+
+    <form id="task-form">
+        <label for="task-input">Mission Objective:</label>
+        <input id="task-input" type="text" placeholder="Enter mission details...">
+
+        <label for="priority">Mission Rank (Priority):</label>
+        <select id="priority">
+            <option value="low">C-Rank (Low)</option>
+            <option value="medium">B-Rank (Medium)</option>
+            <option value="high">S-Rank (High)</option>
+        </select>
+
+        <button type="submit">Post Mission</button>
+    </form>
+
+    <!-- This is the area where the JavaScript will inject the tasks -->
+    <div id="task-list"></div>
+
+    <!-- This links your JavaScript file and defers it until the HTML loads -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
